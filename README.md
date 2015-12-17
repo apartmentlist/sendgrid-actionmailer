@@ -27,7 +27,7 @@ Edit your `config/environments/$ENVIRONMENT.rb` file and add/change the followin
 	  config.action_mailer.sendgrid_actionmailer_settings = {api_user: ENV['SENDGRID_USERNAME'], api_key: ENV['SENDGRID_PASSWORD']}
 
 To take advantage of the SendGrid SMTP API using this gem, set the `X-SMTPAPI` header of
-the Mail object.
+the `Mail` object.
 
 #### Category
 
